@@ -9,7 +9,7 @@
 
 <br><br>
 <div  align="center">
-    <img src="./assets/img/challege01.png" width="40" height="40" hspace="10">
+    <img src="./assets/img/challege01.png" width="200" height="100" hspace="25">
 </div>
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" hspace="10">
