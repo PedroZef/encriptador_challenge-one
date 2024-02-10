@@ -8,6 +8,9 @@
 - Challenge Encriptador, projeto desenvolvido no programa de formação Next Education One da Oracle em parceria com a Alura, com foco em aplicar os conhecimentos obtidos durante a formação Iniciante em Programação Turma 6.
 
 <br><br>
+<div  align="center">
+    <img src="./assets/img/challege01.png" width="40" height="40" hspace="10">
+</div>
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" hspace="10">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" hspace="10">
