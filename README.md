@@ -14,12 +14,11 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" hspace="10">     
 </div>
 <br><br>
-
+<div align="center">
+    [https://pedrozef.github.io/encriptador_challenge-one]
+</div>
+<br><br>
 <div align="center">
     <img src="https://img.shields.io/badge/IN%C3%8DCIO-28%2F01%2F2024-green" hspace="5"/>
     <img src="https://img.shields.io/badge/T%C3%89RMINO-10%2F02%2F2024-red" hspace="5"/>
 </div>
-<div align="center">
-    [https://pedrozef.github.io/encriptador_challenge-one]
-</div>
-<br>
