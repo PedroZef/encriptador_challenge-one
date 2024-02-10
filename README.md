@@ -1,6 +1,7 @@
 <div align="center">
 # Encriptador_challenge-one | 2024
 </div>
+
 ## Sobre o projeto:
 
 - O projeto consiste em criar um encriptador de mensagens que utilize a técnica de criptografar e descriptografar palavras. A implementação deve ser feita em JavaScript, HTML e CSS.
@@ -19,6 +20,12 @@
 </div>
 <br><br>
 <div align="center">
+    [(https://pedrozef.github.io/encriptador_challenge-one/)]
     <img src="https://img.shields.io/badge/IN%C3%8DCIO-28%2F01%2F2024-green" hspace="5"/>
     <img src="https://img.shields.io/badge/T%C3%89RMINO-10%2F02%2F2024-red" hspace="5"/>
 </div>
+<<<<<<< HEAD
+=======
+
+<br>
+>>>>>>> c7d28a5c586547195fde2ec3e2ed1560ae13378a
