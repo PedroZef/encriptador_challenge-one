@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./assests/css/style.css">
+    
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="conteudo-icon">
+            <a href="https://alura.com.br/cursos">
+                <img src="./assests/img/logo-Alura.svg" alt="logo-alura">
+            </a>
+        </aside>
+        <div class="conteudo">
+            <main class="conteudo-principal">
+                <textarea class="primeiro-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <div class="btns">
+                    <span>
+                        <img src="./assests/img/exclamation-circle.svg" alt="Alerta">Apenas letras minúsculas e sem
+                        acento!
+                    </span>
+                    <div class="layout">
+                        <button class="padrao-btn btn-cript">Criptografar</button>
+                        <button class="padrao-btn btn-descript">Descriptografar</button>
+                    </div>
+                </div>
+            </main>
+            <aside class="conteudo-resultado">
+                <div class="container-resultado">
+                    <img src="./assests/img/quality-products.svg" id="img-resultado" alt="logo-resultado">
+                    <div class="msg-resultado">
+                        <h2>Nenhuma mensagem encontrada.</h2>
+                        <p>Digite o texto que deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+                <div class="container-result-cript" style="display:none;">
+                    <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
+                    <button class="padrao-btn btn-copiar">Copiar</button>
+                </div>
+            </aside>
+        </div>
+        <footer class="rodape">
+            &copy; Pedro Zeferino da Silva - 2024.
+        </footer>
+    </div>
+
+    <script src="./assests/js/script.js"></script>
+</body>
+
+</html>
