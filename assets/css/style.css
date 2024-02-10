@@ -22,6 +22,7 @@
 
 html {
     background: linear-gradient(to right, var(--cor-write), var(--cor-rodape));
+    
 }
 
 .container {
@@ -223,7 +224,7 @@ html {
     width: 100%;
     text-align: center;
     line-height: 50px;
-    background-color: var(--cor-rodape);
+    background: linear-gradient(to right, #e7ef08, #ee3173);
     color: var(--cor-black);
    
 }
