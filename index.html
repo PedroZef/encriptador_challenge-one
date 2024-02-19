@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- CSS only -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
     <title>Encriptador de Texto</title>
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
         <aside class="conteudo-icon">
-            <a href="https://alura.com.br/cursos">  
+            <a href="https://alura.com.br/cursos">
                 <img src="./assets/img/logo-Alura.svg" alt="logo-alura">
             </a>
         </aside>
-        <div class="conteudo">
-            <main class="conteudo-principal">
+        <section class="conteudo">
+            <div class="conteudo-principal">
                 <textarea class="primeiro-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
                 <div class="btns">
                     <span>
@@ -33,27 +33,28 @@
                         <button class="padrao-btn btn-descript">Descriptografar</button>
                     </div>
                 </div>
-            </main>
-         
-                <div class="container-resultado">
-                    <img src="./assets/img/quality-products.svg" id="img-resultado" alt="logo-resultado">
-                    <div class="msg-resultado">
-                        <h2>Nenhuma mensagem encontrada.</h2>
-                        <p>Digite o texto que deseja criptografar ou descriptografar.</p>
-                    </div>
+            </div>
+
+            <div class="container-resultado">
+                <img src="./assets/img/quality-products.svg" id="img-resultado" alt="logo-resultado">
+                <div class="msg-resultado">
+                    <h2>Nenhuma mensagem encontrada.</h2>
+                    <p>Digite o texto que deseja criptografar ou descriptografar.</p>
                 </div>
-                <div class="container-result-cript" style="display:none;">
-                    <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
-                    <button class="padrao-btn btn-copiar">Copiar</button>
-                </div>
-            </aside>
-        </div>
+            </div>
+            <div class="container-result-cript" style="display:none;">
+                <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
+                <button class="padrao-btn btn-copiar">Copiar</button>
+            </div>
+
+        </section>
+
         <footer class="rodape">
             <a href="https://github.com/PedroZef/encriptador_challenge-one">
-                &copy; Pedro Zeferino da Silva - 2024. 
+                &copy; Pedro Zeferino da Silva - 2024.
             </a>
         </footer>
-    </div>
+    </main>
 
     <script src="./assets/js/script.js"></script>
 </body>

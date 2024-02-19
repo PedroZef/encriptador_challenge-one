@@ -98,6 +98,8 @@
 }
 
 .conteudo-resultado {
+    display: flex;
+    flex-direction: row;
     background-color: var(--cor-write);
     gap: 20px;
     border-radius: 20px;
@@ -128,7 +130,7 @@
 
 .btn-cript {
     width: 100%;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-rodape);
     color: var(--cor-write);
     gap: 10px;
 
@@ -136,21 +138,21 @@
 
 .btn-descript {
     width: 100%;
-    background-color: var(--cor-hover);
+    background-color: var(--cor-hover1);
     color: var(--cor-write);
 
 }
 
 .btn-cript:hover,
 .btn-cript:focus {
-    background-color: var(--cor-hover1);
-    color: var(--cor-write);
+    background-color: var(--cor-write);
+    color: var(--cor-black);
 }
 
 .btn-descript:hover,
 .btn-descript:focus {
-    background-color: var(--cor-hover1);
-    color: var(--cor-write);
+    background-color: var(--cor-hover);
+    color: var(--cor-black);
 }
 
 .msg-resultado {
@@ -239,7 +241,7 @@
     color: var(--cor-black);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -253,7 +255,7 @@
         flex-direction: column;
         margin: auto;
         gap: 43px;
-        width: 80%;
+        width: 100%;
 
     }
 
@@ -268,8 +270,7 @@
     }
 
     .conteudo .primeiro-texto {
-        width: 80%;
-
+        width: 100%;
         border-radius: 20px;
         outline: none;
         font-size: 2rem;
@@ -282,13 +283,13 @@
     .layout {
         align-items: center;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         gap: 16px;
     }
 
 
     .layout-btns {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -317,30 +318,29 @@
     }
 }
 
-@media (max-width: 480px) {
-
-    .container {
-        background-color: linear-gradient(to right, #66667b, #d8a115);
-    }
-
+@media (max-width: 788px) {
     .conteudo {
-        width: 70%;
+        width: 100%;
     }
 
     .layout {
-        width: 70%;
+        width: 100%;
     }
 
     .conteudo-resultado {
         align-items: center;
         text-align: center;
-        width: 80%;
+        width: 90%;
     }
 
     .container-result-cript {
         align-items: center;
         text-align: center;
-        width: 70%;
+        width: 90%;
+    }
+
+    .btn-cript, .btn-descript {
+        width: 100% !important;
     }
 
     .btns span {
@@ -352,6 +352,44 @@
     }
 
     .btn-copiar {
+        cursor: pointer;
+
+    }
+
+}
+
+@media (max-width: 370px) {
+    .conteudo {
+        width: 100%;
+    }
+
+    .layout {
+        width: 100%;
+    }
+
+    .conteudo-resultado {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-result-cript {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .btns span {
+        font-size: 0.99rem;
+    }
+
+    .btns img {
+        width: 50%;
+        text-align: center;
+    }
+
+    .btn-copiar {
+        display: block;
         cursor: pointer;
 
     }

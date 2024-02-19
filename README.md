@@ -9,7 +9,7 @@
 
 <br><br>
 <div  align="center">
-    <img src="./assets/img/challege01.png" width="200" height="100" hspace="25">
+    <img src="./assets/img/challege01.png" width="300" height="150" hspace="25">
 </div>
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" hspace="10">
@@ -24,7 +24,7 @@
 <br><br>
 <div align="center">
     <img src="https://img.shields.io/badge/IN%C3%8DCIO-28%2F01%2F2024-green" hspace="5"/>
-    <img src="https://img.shields.io/badge/T%C3%89RMINO-10%2F02%2F2024-red" hspace="5"/>
+    <img src="https://img.shields.io/badge/T%C3%89RMINO-14%2F02%2F2024-red" hspace="5"/>
 </div>
 <br>
 
