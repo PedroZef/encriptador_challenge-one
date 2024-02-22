@@ -2,12 +2,12 @@
 
 :root {
     --cor-primaria: #200ee9;
-    --cor-secundaria: #9dc2e7;
+    --cor-secundaria: #e7c99d;
 
     --cor-black: #000;
     --cor-write: #f5f5cc;
 
-    --cor-hover: #dcb61f;
+    --cor-hover: #c0dd80;
     --cor-hover1: #0d15ea;
     --cor-rodape: #81cacf;
 
@@ -24,17 +24,24 @@
 
 
 .container {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
     display: flex;
-    background: linear-gradient(to right, var(--cor-write), var(--cor-rodape));
+    justify-content: center;
+ 
+    background: linear-gradient(var(--cor-rodape), var(--cor-hover));
     flex-direction: column;
 
 }
 
 .conteudo-icon img {
-    margin: 40px;
+    margin: 50px;
 }
 
 .conteudo {
+    align-items: center;
+    text-align: center;
     width: 90%;
     margin-left: auto;
     display: flex;
@@ -60,7 +67,6 @@
     color: var(--cor-primaria);
     font-family: var(--fonte-padrao);
     font-size: 1.5rem;
-
 }
 
 .conteudo span {
@@ -104,7 +110,7 @@
     gap: 20px;
     border-radius: 20px;
     padding: 30px;
-    width: 300px;
+   
 }
 
 .container-resultado p {
@@ -122,15 +128,22 @@
 
 }
 
+.container-resultado img {
+    width: 376px;
+    height: auto;
+    padding: auto;
+}
+
 .conteudo-resultado img {
     align-items: center;
     border-radius: 20px;
     width: 300px;
 }
 
+
 .btn-cript {
     width: 100%;
-    background-color: var(--cor-rodape);
+    background-color: var(--cor-hover1);
     color: var(--cor-write);
     gap: 10px;
 
@@ -138,7 +151,7 @@
 
 .btn-descript {
     width: 100%;
-    background-color: var(--cor-hover1);
+    background-color: var(--cor-rodape);
     color: var(--cor-write);
 
 }
@@ -147,6 +160,7 @@
 .btn-cript:focus {
     background-color: var(--cor-write);
     color: var(--cor-black);
+    transition: 0.2ms;
 }
 
 .btn-descript:hover,
@@ -160,11 +174,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .msg-resultado h2 {
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .msg-resultado span:nth-child(1),
@@ -176,35 +191,44 @@
 }
 
 .container-result-cript {
-    width: 95%;
+    width: 80%;
     text-align: center;
-    background-color: var(--cor-rodape);
+    background-color: var(--cor-write);
     display: flex;
     margin-bottom: auto;
     flex-direction: column;
     align-items: center;
     border-radius: 32px;
     justify-content: center;
+   
 }
 
 .container-result-cript textarea {
-    width: 95%;
     border: none;
-    height: 342px;
+    height: 257px;
     align-items: center;
-    border-radius: 32px;
+    border-radius: 22px;
     outline: none;
     font-family: var(--fonte-padrao);
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
     color: var(--cor-black);
-    gap: 20px;
+
+    gap: 10px;
 }
 
 .txt-result {
-    background: var(--cor-write);
     width: 80%;
+    align-items: center;
+    resize: none;
+    border-radius: 20px;
+    background: var(--cor-secundaria);
+   
+}
+
+.txt-result:hover {
+    background-color: var(--cor-rodape);
 }
 
 .btns img {
@@ -215,14 +239,13 @@
 }
 
 .btn-copiar {
-    width: 94%;
-    top: 30px;
-    background-color: var(--cor-write);
+    width: 80%;
+    background-color: var(--cor-secundaria);
     font-family: var(--fonte-padrao);
 }
 
 .btn-copiar:hover {
-    background-color: var(--cor-rodape);
+    background-color: var(--cor-hover1);
 }
 
 .rodape {
@@ -231,7 +254,8 @@
     width: 100%;
     text-align: center;
     line-height: 50px;
-    background: linear-gradient(to right, #5bb9e2, #ee6777);
+    margin-top: 40px;
+    background: linear-gradient( #5bb9e2, #ee6777);
     color: var(--cor-black);
 
 }
@@ -241,7 +265,7 @@
     color: var(--cor-black);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -306,7 +330,7 @@
     }
 
     .container-resultado {
-        width: 94%;
+        width: 100%;
         align-items: center;
         text-align: center;
     }
@@ -314,11 +338,18 @@
     .container-result-cript {
         align-items: center;
         text-align: center;
-        width: 94%;
+        width: 100%;
     }
 }
 
 @media (max-width: 788px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
     .conteudo {
         width: 100%;
     }
@@ -334,13 +365,14 @@
     }
 
     .container-result-cript {
-        align-items: center;
-        text-align: center;
+    
         width: 90%;
     }
 
+
+
     .btn-cript, .btn-descript {
-        width: 100% !important;
+        width: 90%;
     }
 
     .btns span {
@@ -348,6 +380,9 @@
     }
 
     .btns img {
+        margin: 10px;
+        margin-left: 40px;
+        align-items: center;
         text-align: center;
     }
 
@@ -358,7 +393,14 @@
 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 470px) {
+    .container {
+        display: flex;
+        align-items: center;
+        text-align: center  ;
+        flex-direction: column;
+    }
+
     .conteudo {
         width: 100%;
     }
@@ -376,20 +418,33 @@
     .container-result-cript {
         align-items: center;
         text-align: center;
+        margin-left: 20px;
+    }
+
+    .txt-result{
+        align-items: center;
+        text-align: center;
+        border-radius: 12px;
+        border: none;
+        margin-left: 30px;
         width: 100%;
     }
 
+    .btns {
+        width: 100%;
+        display: flex;
+    }
+
     .btns span {
-        font-size: 0.99rem;
+        font-size: 0.79rem;
     }
 
     .btns img {
-        width: 50%;
         text-align: center;
     }
 
     .btn-copiar {
-        display: block;
+        align-items: center;
         cursor: pointer;
 
     }

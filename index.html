@@ -22,15 +22,15 @@
         </aside>
         <section class="conteudo">
             <div class="conteudo-principal">
-                <textarea class="primeiro-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <textarea class="primeiro-texto" id="areaTexto"cols="40" rows="7" placeholder="Digite seu texto"></textarea>
                 <div class="btns">
                     <span>
                         <img src="./assets/img/exclamation-circle.svg" alt="Alerta">Apenas letras minúsculas e sem
                         acento!
                     </span>
                     <div class="layout">
-                        <button class="padrao-btn btn-cript">Criptografar</button>
-                        <button class="padrao-btn btn-descript">Descriptografar</button>
+                        <button class="padrao-btn btn-cript"  onclick="criptografia()">Criptografar</button>
+                        <button class="padrao-btn btn-descript"  onclick="decript()">Desencriptografar</button>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="container-result-cript" style="display:none;">
-                <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
+                <textarea id=""  class="txt-result"></textarea>
                 <button class="padrao-btn btn-copiar">Copiar</button>
             </div>
 
