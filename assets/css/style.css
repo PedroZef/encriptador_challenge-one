@@ -202,23 +202,24 @@ body {
   text-align: center;
   background-color: var(--cor-write);
   display: flex;
-
+  margin-left: 30px;
   margin-top: 10px;
   flex-direction: column;
   align-items: center;
   border-radius: 32px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .container-result-cript textarea {
   border: none;
-  height: 257px;
+  height: 280px;
   align-items: center;
   border-radius: 32px;
   outline: none;
   font-family: var(--fonte-padrao);
   font-size: 1.5rem;
   font-weight: 400;
+
   text-align: center;
   color: var(--cor-black);
 }
@@ -327,7 +328,7 @@ body {
   }
 
   .btns span {
-    width: 100%;
+    width: 90%;
   }
 
   .container-result-cript {
@@ -350,18 +351,18 @@ body {
   }
 
   .layout {
-    width: 80%;
+    width: 85%;
     gap: 20px;
   }
 
   .conteudo-resultado {
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   .container-result-cript {
-    width: 100%;
+    width: 90%;
   }
 
   .btn-cript,
@@ -370,7 +371,7 @@ body {
   }
 
   .btns span {
-    max-width: 100%;
+    max-width: 90%;
     font-size: 0.99rem;
   }
 
@@ -386,69 +387,3 @@ body {
   }
 }
 
-@media (max-width: 375px) {
-  .container {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .conteudo {
-    max-width: 100%;
-  }
-
-  .layout {
-    max-width: 100%;
-  }
-
-  .conteudo-resultado {
-    align-items: center;
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .container-result-cript {
-    color: var(--cor-rodape);
-    align-items: center;
-    text-align: center;
-
-    max-width: 70%;
-  }
-
-  .txt-result {
-    align-items: center;
-    text-align: center;
-    border-radius: 22px;
-    border: none;
-    max-width: 70%;
-  }
-
-  .btn-cript,
-  .btn-descript {
-    max-width: 100%;
-  }
-
-  .btns span {
-    width: 100%;
-    font-size: 0.89rem;
-  }
-
-  .btns img {
-    text-align: center;
-  }
-
-  .btn-copiar {
-    align-items: center;
-    cursor: pointer;
-  }
-
-  .rodape  {
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    padding: 35px 40px;
-  }
-
-}
