@@ -252,7 +252,7 @@ body {
   justify-content: space-between;
   line-height: 40px;
   top: 40px;
-  background: linear-gradient(to right, #5bb9e2, #ee6777);
+  background: linear-gradient(to right, #ee6777, #5bb9e2);
   color: var(--cor-black);
 }
 
@@ -261,7 +261,7 @@ body {
   color: var(--cor-black);
 }
 
-@media (max-width: 1002px) {
+@media (max-width: 992px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -299,7 +299,7 @@ body {
   .layout {
     align-items: center;
     flex-direction: column;
-    width: auto;
+    width: 80%;
     gap: 16px;
   }
 
@@ -313,6 +313,7 @@ body {
   }
 
   .conteudo-resultado {
+    width: 80%;
     text-align: center;
     display: flex;
     border-radius: 32px;
@@ -320,7 +321,7 @@ body {
   }
 
   .container-resultado {
-    width: auto;
+    width: 80%;
     align-items: center;
     text-align: center;
   }
@@ -332,7 +333,7 @@ body {
   .container-result-cript {
     align-items: center;
     text-align: center;
-    width: auto;
+    width: 80%;
   }
 }
 
@@ -356,11 +357,11 @@ body {
   .conteudo-resultado {
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
 
   .container-result-cript {
-    width: 90%;
+    width: 100%;
   }
 
   .btn-cript,
@@ -369,7 +370,7 @@ body {
   }
 
   .btns span {
-    max-width: 90%;
+    max-width: 100%;
     font-size: 0.99rem;
   }
 
@@ -385,7 +386,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 375px) {
   .container {
     max-width: 100%;
     display: flex;
@@ -395,17 +396,17 @@ body {
   }
 
   .conteudo {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .layout {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .conteudo-resultado {
     align-items: center;
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .container-result-cript {
@@ -413,7 +414,7 @@ body {
     align-items: center;
     text-align: center;
 
-    max-width: 60%;
+    max-width: 70%;
   }
 
   .txt-result {
@@ -421,15 +422,16 @@ body {
     text-align: center;
     border-radius: 22px;
     border: none;
-    max-width: 50%;
+    max-width: 70%;
   }
 
   .btn-cript,
   .btn-descript {
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .btns span {
+    width: 100%;
     font-size: 0.89rem;
   }
 
@@ -441,4 +443,12 @@ body {
     align-items: center;
     cursor: pointer;
   }
+
+  .rodape  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 35px 40px;
+  }
+
 }
