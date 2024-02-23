@@ -22,28 +22,41 @@
     --fonte-padrao: 'Inter', sans-serif;
 }
 
+body {
+    width:  100vw;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+}
+
 
 .container {
     width: 100%;
-    max-width: 1440px;
     height: 100%;
     display: flex;
     justify-content: center;
- 
     background: linear-gradient(var(--cor-rodape), var(--cor-hover));
     flex-direction: column;
 
 }
 
-.conteudo-icon img {
-    margin: 50px;
+.conteudo-icon {
+    max-width: 140px;
+    max-height: 70px;
+}
+
+.conteudo-icon a {
+    display: block;
+    margin: 20px;
 }
 
 .conteudo {
     align-items: center;
     text-align: center;
     width: 90%;
-    margin-left: auto;
+    margin-top: auto;
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
 
 }
@@ -55,8 +68,6 @@
     justify-content: space-around;
     gap: 20px;
     flex: 1 0 auto;
-
-
 }
 
 .primeiro-texto {
@@ -67,6 +78,8 @@
     color: var(--cor-primaria);
     font-family: var(--fonte-padrao);
     font-size: 1.5rem;
+    margin: 15px;
+    top: 10px;
 }
 
 .conteudo span {
@@ -110,7 +123,7 @@
     gap: 20px;
     border-radius: 20px;
     padding: 30px;
-   
+
 }
 
 .container-resultado p {
@@ -195,12 +208,13 @@
     text-align: center;
     background-color: var(--cor-write);
     display: flex;
-    margin-bottom: auto;
+    margin-top: 60px;
     flex-direction: column;
     align-items: center;
     border-radius: 32px;
     justify-content: center;
-   
+    top: 30px;
+
 }
 
 .container-result-cript textarea {
@@ -214,7 +228,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--cor-black);
-
+    justify-items: center;
     gap: 10px;
 }
 
@@ -224,11 +238,11 @@
     resize: none;
     border-radius: 20px;
     background: var(--cor-secundaria);
-   
+
 }
 
 .txt-result:hover {
-    background-color: var(--cor-rodape);
+    background-color: var(--cor-write);
 }
 
 .btns img {
@@ -240,12 +254,12 @@
 
 .btn-copiar {
     width: 80%;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-rodape);
     font-family: var(--fonte-padrao);
 }
 
 .btn-copiar:hover {
-    background-color: var(--cor-hover1);
+    background-color: var(--cor-hover);
 }
 
 .rodape {
@@ -255,7 +269,7 @@
     text-align: center;
     line-height: 50px;
     margin-top: 40px;
-    background: linear-gradient( #5bb9e2, #ee6777);
+    background: linear-gradient(#5bb9e2, #ee6777);
     color: var(--cor-black);
 
 }
@@ -350,6 +364,7 @@
         justify-content: space-between;
 
     }
+
     .conteudo {
         width: 100%;
     }
@@ -365,13 +380,14 @@
     }
 
     .container-result-cript {
-    
+
         width: 90%;
     }
 
 
 
-    .btn-cript, .btn-descript {
+    .btn-cript,
+    .btn-descript {
         width: 90%;
     }
 
@@ -397,7 +413,7 @@
     .container {
         display: flex;
         align-items: center;
-        text-align: center  ;
+        text-align: center;
         flex-direction: column;
     }
 
@@ -421,7 +437,7 @@
         margin-left: 20px;
     }
 
-    .txt-result{
+    .txt-result {
         align-items: center;
         text-align: center;
         border-radius: 12px;
